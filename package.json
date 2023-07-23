@@ -1,0 +1,22 @@
+{
+  "name": "openai",
+  "version": "1.0.0",
+  "description": "openai api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "openai"
+  ],
+  "author": "WM",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.2"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1",
+    "openai": "^3.3.0"
+  }
+}

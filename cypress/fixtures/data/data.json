@@ -1,0 +1,22 @@
+{
+	"url" : "https://api.openai.com/v1/",
+	"endpoints": {
+		"chat": "chat/completions",
+		"image": "images/generations",
+		"moderation": "moderations"
+	},
+	"typeModel": {
+		"modelGPT": "gpt-3.5-turbo"
+	},
+    "messages" : [{ "role": "user", "content": "How to create a virtual environment in python?" }],
+    "image" : {
+        "prompt" : "A dog beautiful",
+        "size" : "1024x1024",
+        "n" : 3
+    },
+	"input" : "I want to kill them",
+	"headers": {
+		"ContentType": "application/json",
+		"Authorization": "Bearer (Here you have to write your API Key)"
+	}
+}
